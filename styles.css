@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: blueviolet;
+    text-align: center;
+    background-color: rgb(44, 46, 46);
+}
+
+/* Estilos para la cabecera */
+header {
+    background-color: #181717;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: blueviolet;
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 5px;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 40px;
+}
+
+/* Estilos para la sección de productos */
+.productos {
+    display: flex;
+    justify-content: space-around;
+    color: blueviolet;
+}
+
+.producto {
+    text-align: center;
+    margin: 40px;
+}
+.producto {
+    display: inline-block;
+    text-align: center; /* Centra el contenido dentro de cada producto */
+    margin: 50px; /* Ajusta el margen según sea necesario */
+}
+
+.producto img {
+    max-width: 150%; /* Ajusta el ancho de la imagen al contenedor */
+    height: auto; /* Mantiene las proporciones de la imagen */
+}
+.logo-imagen{
+    width: 50px; 
+    height: auto; 
+    background-color: transparent; 
+    color: #fff;
+}
+.mi-imagen {
+    width: 200px; /* Ajusta el ancho deseado */
+    height: auto; /* Mantiene las proporciones */
+    background-color: rgb(44, 46, 46); /* Hace el fondo transparente si la imagen lo permite */
+}
+/* Estilos para la sección de ubicación */
+.ubicacion {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la sección de contacto */
+.contacto {
+    text-align: center;
+}
+
+.boton {
+    background-color: #0c0c0c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #0c0c0c;
+    background-color: #181717;
+}
